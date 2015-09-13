@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.3'
-gem 'sqlite3'
 gem 'sass-rails', '5.0.3'
 gem 'uglifier', '2.7.1'
 gem 'coffee-rails', '4.1.0'
@@ -26,6 +25,7 @@ group :test do
 	gem 'minitest-reporters', '1.0.5'
 	gem 'mini_backtrace', '0.1.3'
 	gem 'guard-minitest', '2.3.1'	
+	gem 'sqlite3'
 end
 
 
